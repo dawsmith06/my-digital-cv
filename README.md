@@ -21,8 +21,7 @@
 ## My Digital Curriculum Vitae
 
 Bringing my cv to life my cv in multiple web tools like Vue.js, React.Js, Angular and Flutter Web.
-https://cv.rosso.com.do
-(mailto:darwrosso@gmail.com). Feel Free to contact me.
+Web URL : https://cv.rosso.com.do
 
 ## License
 
