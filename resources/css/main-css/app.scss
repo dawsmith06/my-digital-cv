@@ -1,0 +1,44 @@
+.float-inp-container:focus-within label, .float-inp-container:active label {
+    font-size: 11px;
+    top: -75%;
+    color: white !important;
+  }
+  
+  .float-inp-container input:-moz-read-only + label {
+    font-size: 12px;
+    top: -75%;
+    color: white !important;
+  }
+  
+  .float-inp-container input:required:valid + label, .float-inp-container input:read-only + label {
+    font-size: 12px;
+    top: -75%;
+    color: white !important;
+    font-weight: bold;
+  }
+  
+  .float-inp-container {
+    position: relative;
+    background: white;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 0.25rem;
+  }
+  
+  .float-inp-container input {
+    background: transparent;
+    z-index: 1000;
+    position: relative;
+  }
+  
+  .float-inp-container label {
+    position: absolute;
+    font-size: 14px;
+    left: 8px;
+    right: 0;
+    top: 4px;
+    color: #6b6b6b;
+    transition: all 0.4s ease;
+    z-index: 1 !important;
+  }
