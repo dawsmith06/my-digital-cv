@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://cv.rosso.com.do" target="_blank">
-    <img src="https://cv.rosso.com.do/img/cover.png" width="400">
+    <img src="https://cv.rosso.com.do/img/cover.png" width="100">
   </a>
 </p>
 <p align="center">
