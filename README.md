@@ -17,6 +17,7 @@
     <img src="https://cv.rosso.com.do/img/flutter.svg" alt="Vue CV" width="20">
   </a>
 </p>
+
 ## My Digital Curriculum Vitae
 
 Bringing my cv to life my cv in multiple web tools like Vue.js, React.Js, Angular and Flutter Web.
