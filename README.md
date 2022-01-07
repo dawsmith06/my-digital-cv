@@ -22,7 +22,6 @@
 
 Bringing my cv to life my cv in multiple web tools like Vue.js, React.Js, Angular and Flutter Web.
 
-
 Web URL : https://cv.rosso.com.do
 
 ## License
