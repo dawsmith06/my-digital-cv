@@ -88,7 +88,7 @@
             {{certificate.name}}
           </span>
           <small class="section-period text-primary">{{certificate.period}}</small>
-          <a :href="certificate.link" class="small">Ver certificado</a>
+          <a :href="certificate.link" class="small d-block mt-1">Ver certificado</a>
         </h6>
       </div>
 
