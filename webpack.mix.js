@@ -13,7 +13,7 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css').version();;
-mix.js('resources/js/cv-vue.js', 'public/js').vue();
+mix.js('resources/js/cv-vue.js', 'public/js').vue().version();
 // mix.postCss('resources/css/main-css/app.css', 'public/css');
 // mix.postCss('resources/css/views-css/welcome.scss', 'public/css');
 // mix.postCss('resources/css/views-css/agent-app.scss', 'public/css');

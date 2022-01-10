@@ -29,7 +29,7 @@
             </footer>
         @endverbatim
     </div>
-    <script src="{{ asset('js/cv-vue.js')}}" defer></script>
+    <script src="{{ mix('js/cv-vue.js')}}" defer></script>
 
     <style>
         :root{
