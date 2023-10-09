@@ -66,3 +66,31 @@ hr{
         padding-right: 1.5rem!important;
     }
   }
+  @page {
+    size: letter;
+    margin: 0;
+  }
+  @media print {
+    :root{
+        --primary-gradient: #3eb17d;
+        --secondary-gradient: ##386a68;
+    }
+    html, body {
+      width: 210mm;
+      height: 280mm;
+      background: white;
+      box-shadow: unset !important;
+      margin: 0 !important;
+      padding:0 !important;
+    }
+    #cover-container .image {
+      height: 220px !important;
+      print-color-adjust: exact;
+    }
+    #left-side{
+      margin-top:2.80rem ;
+    }
+    #top-bar, #skill-list li{
+        print-color-adjust: exact;
+    }
+  }
