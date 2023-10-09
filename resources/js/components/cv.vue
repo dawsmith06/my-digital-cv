@@ -148,7 +148,6 @@ export default {
   margin-top: -5px;
 }
 #top-bar {
-  background: linear-gradient(to right, #3eb17d, #34495e);
   background: var(--primary-gradient);
   border-top-left-radius: 2px;
   border-bottom-left-radius: 5px;

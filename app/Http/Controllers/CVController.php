@@ -22,7 +22,7 @@ class CVController extends Controller
             "skills" => Skill::all(),
             "languages" => Language::all(),
             "hobbies" => Hobby::all(),
-            "experiences" => Experience::all(),
+            "experiences" => Experience::where('status',1)->get(),
             "education" => Education::all(),
             "certificates" => Certificate::all(),
             "personal_projects" => PersonalProjects::all(),
